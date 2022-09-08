@@ -1,6 +1,7 @@
 # Unreleased
 
 - event: Add `tool_type` getter for `Pointer`. (#323)
+- media_codec: Fix `dequeue_input_buffer` and `dequeue_output_buffer` misinterpreting some errors as buffer indices. (#316)
 
 # 0.7.0 (2022-07-24)
 
